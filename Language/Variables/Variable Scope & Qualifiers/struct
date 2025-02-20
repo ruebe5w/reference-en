@@ -1,0 +1,78 @@
+---
+title: struct
+categories: [ "Variables" ]
+subCategories: [ "Variable Scope & Qualifiers" ]
+---
+
+= Struct
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+The `struct` keyword is used to create a structure type to group several related variables into one place. The variables inside the struct are called member of the structure
+
+A structure can contain many variables with different data types.
+[%hardbreaks]
+[float]
+=== Creating (Declaring) a struct
+
+All of the methods below are valid ways to create (declare) a struct.
+[source,arduino]
+----
+  // Declare an struct with the type name myStruct:
+  struct myStruct {
+    string myString;
+    int myInt;
+  };
+
+  // Declare an struct with the type name myStruct and the instance name myStruct1:
+  struct myStruct {
+    string myString;
+    int myInt;
+  } myStruct1;
+
+ 
+----
+
+[%hardbreaks]
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+
+
+[source,arduino]
+----
+
+----
+[%hardbreaks]
+
+
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION STARTS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:../../../variables/data-types/array/[array]
+--
+// SEE ALSO SECTION ENDS
